@@ -94,8 +94,8 @@ a {
 
 .cards {
   display: flex;
-  gap: 32px;
-  margin: 32px 20% 64px 20%;
+  gap: 50px;
+  margin: 32px 15% 100px 15%;
   justify-content: center;
 }
 
@@ -111,6 +111,27 @@ a {
 .card-image {
   width: 128px;
   height: 128px;
-  border: 3px solid #3882f6;
+  border: 4px solid #3882f6;
   border-radius: 10px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  padding: 128px 20%;
+  background-color: #e5e7eb;
+}
+
+.quote-text {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  font-weight: 350;
+}
+
+.quote-name {
+  text-align: right;
+  font-size: 24px;
+  font-weight: bold;
+  color: #1f2937;
 }
